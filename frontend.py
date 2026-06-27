@@ -132,7 +132,7 @@ if predict:
     try:
 
         response = requests.post(
-            "https://student-performance-prediction-2erw.onrender.com/",
+            "https://student-performance-prediction-2erw.onrender.com/predict",
             json=payload
         )
 
